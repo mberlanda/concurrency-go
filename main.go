@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/mberlanda/concurrency-go/pingpong"
-	"github.com/mberlanda/concurrency-go/fanin"
+	"github.com/mberlanda/concurrency-go/workers"
 )
 
 func main() {
 	// hello.Hello()
 	// timer.Timer()
-	pingpong.PingPong()
-	fanin.FanIn()
+	// pingpong.PingPong()
+	// fanin.FanIn()
+	workers.LaunchPool()
 }
