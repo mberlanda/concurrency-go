@@ -10,4 +10,5 @@ func main() {
 	// pingpong.PingPong()
 	// fanin.FanIn()
 	workers.LaunchPool()
+	workers.LaunchSubworkers()
 }
